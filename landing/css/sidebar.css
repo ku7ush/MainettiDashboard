@@ -1,0 +1,139 @@
+#sidebar {
+  height: 100vh;
+  max-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1031;
+  width: 15rem;
+  background-color: rgba(119, 31, 39, 0.95);
+  color: white;
+  padding: 1rem 1rem; }
+  #sidebar .brand-logo {
+    margin-bottom: 50%; }
+    #sidebar .brand-logo .navbar-brand {
+      padding: 0 1.5rem;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 3rem;
+      font-family: "Oswald", sans-serif;
+      align-self: flex-start; }
+  #sidebar a[data-toggle="collapse"] {
+    position: relative; }
+  #sidebar .menu-block {
+    width: 100%; }
+  #sidebar .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%); }
+  #sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc; }
+  #sidebar ul.components {
+    padding: 20px 0; }
+  #sidebar ul p {
+    color: #fff;
+    padding: 10px; }
+  #sidebar ul li.active a {
+    transition: color 0.4s;
+    color: #ffffff; }
+  #sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.4s; }
+    #sidebar ul li a span.mtext {
+      font-size: 0.8rem;
+      text-transform: uppercase; }
+    #sidebar ul li a span {
+      width: 20px;
+      margin-right: 1rem;
+      font-size: 0.8rem; }
+    #sidebar ul li a::after {
+      transition: transform 0.4s;
+      transform-origin: top center;
+      transform: rotate(0deg); }
+    #sidebar ul li a:hover {
+      transition: color 0.4s;
+      color: #ffffff; }
+      #sidebar ul li a:hover::after {
+        transition: transform 0.4s;
+        transform-origin: top center;
+        transform: rotate(270deg); }
+    #sidebar ul li a[aria-expanded="true"] {
+      color: #ffffff; }
+      #sidebar ul li a[aria-expanded="true"]::after {
+        transition: transform 0.4s;
+        transform-origin: top center;
+        transform: rotate(180deg); }
+    #sidebar ul li a.active > a, #sidebar ul li a a[aria-expanded="true"] {
+      transition: color 0.4s;
+      color: #ffffff; }
+  #sidebar ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  button[aria-expanded="true"] {
+    color: white !important; }
+
+  #sidebar {
+    width: 25rem;
+    transition: left 0.3s;
+    left: -25rem; }
+    #sidebar .brand-logo {
+      margin-top: 50%; }
+    #sidebar.show {
+      transition: left 0.3s;
+      left: 0; } }
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) {
+  #sidebar {
+    width: 15rem; }
+
+  .masthead {
+    padding-left: 15rem !important; } }
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #sidebar {
+    width: 15rem;
+    transition: left 0.3s;
+    left: -15rem;
+    background-color: rgba(121, 13, 13, 0.95); }
+    #sidebar.show {
+      transition: left 0.3s;
+      left: 0; }
+
+  .navbar-expand-lg .navbar-toggler {
+    display: block !important; }
+
+  .masthead {
+    padding-left: 0rem !important; } }
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
+  #sidebar {
+    background-color: rgba(121, 13, 13, 0.95); } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 618px) and (orientation: portrait) {
+  #sidebar {
+    width: 100%;
+    transition: left 0.3s;
+    left: -100%; }
+    #sidebar .brand-logo {
+      margin-top: 20%;
+      margin-bottom: 20%; }
+    #sidebar.show {
+      transition: left 0.3s;
+      left: 0; } }
+@media only screen and (min-device-width: 480px) and (max-device-width: 812px) and (orientation: landscape) {
+  #sidebar {
+    width: 20rem;
+    transition: left 0.3s;
+    left: -20rem; }
+    #sidebar .menu-block {
+      margin-top: 15px; }
+    #sidebar .brand-logo {
+      display: none; }
+    #sidebar.show {
+      transition: left 0.3s;
+      left: 0; } }
+
+/*# sourceMappingURL=sidebar.css.map */

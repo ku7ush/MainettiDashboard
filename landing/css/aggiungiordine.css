@@ -1,0 +1,34 @@
+#orderForm .row {
+  margin-left: 0;
+  margin-right: 0; }
+  #orderForm .row .form-control, #orderForm .row .custom-select {
+    border-radius: 0;
+    transition: border-color 0.5s, border-width, 0.5s;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff; }
+    #orderForm .row .form-control:focus, #orderForm .row .custom-select:focus {
+      transition: border-color 0.5s, border-width, 0.5s;
+      border-color: #771f27;
+      box-shadow: none;
+      border-width: 2px; }
+  #orderForm .row .custom-select * {
+    background-color: white;
+    color: black; }
+  #orderForm .row label {
+    color: #ffffff; }
+
+.newline-suggest {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1% 1.5%;
+  font-size: 1.3rem; }
+  .newline-suggest i {
+    color: #ffffff; }
+
+.nuovo-ordine-wrapper .title {
+  justify-content: space-between !important; }
+  .nuovo-ordine-wrapper .title .back-link, .nuovo-ordine-wrapper .title .save-link {
+    color: #ffffff; }
+
+/*# sourceMappingURL=aggiungiordine.css.map */

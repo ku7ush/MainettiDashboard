@@ -1,0 +1,135 @@
+[origin] =&gt; 
+            [message_follower_ids] =&gt; Array
+                (
+                    [0] =&gt; 6416
+                )
+
+            [create_date] =&gt; 2019-02-27 10:32:48
+            [amount_total_conai] =&gt; 2.28
+            [categ_ids] =&gt; Array
+                (
+                )
+
+            [payment_term] =&gt; Array
+                (
+                    [0] =&gt; 74
+                    [1] =&gt; 0150 - R.B. AL 5 M.S. 150 GG FM
+                )
+
+            [picking_policy] =&gt; direct
+            [order_policy] =&gt; manual
+            [carrier_id] =&gt; 
+            [currency_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; EUR
+                )
+
+            [invoice_ids] =&gt; Array
+                (
+                )
+
+            [invoice_exists] =&gt; 
+            [shop_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; Mainetti Omaf S.r.l.
+                )
+
+            [client_order_ref] =&gt; 
+            [paypal_url] =&gt; 
+            [date_order] =&gt; 2019-02-27
+            [partner_id] =&gt; Array
+                (
+                    [0] =&gt; 6328
+                    [1] =&gt; 0909 SRL
+                )
+
+            [agente1_id] =&gt; 
+            [invoiced] =&gt; 
+            [note] =&gt; 
+            [fiscal_position] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; Italia
+                )
+
+            [user_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; Administrator
+                )
+
+            [message_is_follower] =&gt; 1
+            [order_line] =&gt; Array
+                (
+                    [0] =&gt; 23357
+                )
+
+            [company_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; Mainetti Omaf S.r.l.
+                )
+
+            [spese_imballo] =&gt; 0
+            [id] =&gt; 10137
+            [amount_tax] =&gt; 125.2416
+            [state] =&gt; draft
+            [spese_di_trasporto] =&gt; 100
+            [sconto_partner] =&gt; 0
+            [effective_date] =&gt; 
+            [pricelist_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; Listino Base (EUR)
+                )
+
+            [esenzione_conai] =&gt; 
+            [project_id] =&gt; 
+            [incoterm] =&gt; 
+            [spese_incasso] =&gt; 0
+            [section_id] =&gt; 
+            [validity] =&gt; 
+            [requested_date] =&gt; 
+            [message_summary] =&gt;  
+            [picked_rate] =&gt; 0
+            [cod_esenzione_iva] =&gt; 
+            [partner_invoice_id] =&gt; Array
+                (
+                    [0] =&gt; 6328
+                    [1] =&gt; 0909 SRL
+                )
+
+            [amount_untaxed] =&gt; 467
+            [agreed_id] =&gt; 
+            [date_confirm] =&gt; 
+            [chiuso] =&gt; 
+            [commitment_date] =&gt; 2019-03-06
+            [scad_esenzione_iva] =&gt; 
+            [name] =&gt; CO0004096-2019
+            [partner_shipping_id] =&gt; Array
+                (
+                    [0] =&gt; 8154
+                    [1] =&gt; 0909 SRL, CARRIERI  SRL
+                )
+
+            [agente2_id] =&gt; 
+            [str_sconto_partner] =&gt; 
+            [picking_ids] =&gt; Array
+                (
+                )
+
+            [invoiced_rate] =&gt; 0
+            [shipped] =&gt; 
+            [invoice_quantity] =&gt; order
+            [message_ids] =&gt; Array
+                (
+                    [0] =&gt; 5768876
+                    [1] =&gt; 5768875
+                )
+
+            [amount_total] =&gt; 694.5216
+            [message_unread] =&gt; 
+            [margin] =&gt; 467
+            [scad_esenzione_conai] =&gt; 
