@@ -1,0 +1,179 @@
+@import 'palette'
+
+#sidebar	
+	height: 100vh
+	max-height: 100vh
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 1031
+	width: 15rem	
+	background-color: rgba(119, 31, 39, 0.95)
+	color: white
+	padding: 1rem 1rem
+
+	// Logo
+
+	.brand-logo
+		margin-bottom: 50%
+
+		.navbar-brand
+			padding: 0 1.5rem
+			color: rgba(255, 255, 255, 0.8)
+			font-size: 3rem
+			font-family: "Oswald", sans-serif
+			align-self: flex-start
+
+	a[data-toggle="collapse"]
+		position: relative
+
+	.menu-block
+		width: 100%
+
+	.dropdown-toggle::after
+		display: block
+		position: absolute
+		top: 50%
+		right: 0
+		transform: translateY(-50%)
+
+
+	.sidebar-header
+		padding: 20px
+		background: #6d7fcc
+
+	ul
+
+		&.components
+			padding: 20px 0
+
+		& p
+			color: #fff
+			padding: 10px
+
+		li.active
+			a
+				transition: color 0.4s
+				color: $white
+
+		li a
+			padding: 10px
+			font-size: 1.1em
+			display: block
+			color: $white50
+			transition: color 0.4s
+
+			span.mtext
+				font-size: 0.8rem
+				text-transform: uppercase
+
+			span
+				width: 20px
+				margin-right: 1rem
+				font-size: 0.8rem
+
+			&::after
+				transition: transform 0.4s
+				transform-origin: top center
+				transform: rotate(0deg)
+
+
+			&:hover
+				transition: color 0.4s
+				color: $white
+
+				&::after
+					transition: transform 0.4s
+					transform-origin: top center
+					transform: rotate(270deg)
+
+			&[aria-expanded="true"]
+				color: $white
+				&::after
+					transition: transform 0.4s
+					transform-origin: top center
+					transform: rotate(180deg)
+
+			&.active > a, a[aria-expanded="true"]
+				transition: color 0.4s
+				color: $white
+
+		ul a
+			font-size: 0.9em !important
+			padding-left: 30px !important
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+	button[aria-expanded="true"]
+		color: white !important
+
+	#sidebar
+		width: 25rem
+		transition: left 0.3s
+		left: -25rem
+
+		.brand-logo
+			margin-top: 50%
+
+		&.show
+			transition: left 0.3s
+			left: 0
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape)
+	#sidebar
+		width: 15rem
+
+	.masthead
+		padding-left: 15rem !important
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape)
+	#sidebar
+		width: 15rem
+		transition: left 0.3s
+		left: -15rem
+		background-color: rgba(121, 13, 13, 0.95)
+
+		&.show
+			transition: left 0.3s
+			left: 0
+
+	.navbar-expand-lg .navbar-toggler
+		display: block !important
+
+	.masthead
+		padding-left: 0rem !important
+
+@media only screen and (max-device-width: 1024px) and (orientation: portrait)
+	#sidebar
+		background-color: rgba(121, 13, 13, 0.95)
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 618px) and (orientation: portrait)
+	
+	#sidebar
+		width: 100%
+		transition: left 0.3s
+		left: -100%
+
+		.brand-logo
+			margin-top: 20%
+			margin-bottom: 20%
+
+		&.show
+			transition: left 0.3s
+			left: 0
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 812px) and (orientation: landscape)
+
+	#sidebar
+		width: 20rem
+		transition: left 0.3s
+		left: -20rem
+
+		.menu-block
+			margin-top: 15px
+
+		.brand-logo
+			display: none
+
+		&.show
+			transition: left 0.3s
+			left: 0

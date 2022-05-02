@@ -1,0 +1,96 @@
+@import 'palette'
+
+a.visualizza-linea-button
+	cursor: pointer
+
+	i
+		color: $white
+
+select:disabled
+	background: none
+
+.custom-modal
+	background: $modal-background-color
+	width: 90%
+	margin: 6% 5%
+	height: auto
+	position: absolute
+	z-index: 30
+	border: 2px solid $white
+
+	.custom-modal-header
+		display: flex
+		flex-direction: row
+		justify-content: flex-end
+
+		i
+			font-size: large
+			color: white
+			padding: 1% 1%
+			cursor: pointer
+
+	.custom-modal-footer
+		display: flex
+		flex-direction: row
+		color: $white
+		justify-content: flex-end
+		align-items: baseline
+		padding: 1% 2%
+
+		a
+			display: flex
+			flex-direction: row
+			align-items: center
+			font-weight: 200
+			cursor: pointer
+
+			i
+				font-size: x-large
+				color: white
+				padding: 1% 1%
+				cursor: pointer
+				margin-left: 12px
+
+	.form-group.row
+		max-width: 100%
+		margin: 0
+		padding: 1% 2%
+		color: white
+
+		.form-control:disabled, .form-control[readonly]
+			background-color: transparent
+			opacity: 1
+			color: white
+			border: none
+
+		select:disabled
+			background: none
+
+	.orders-list
+		padding: 0 1.5%
+
+.order-icons
+	i
+		//font-weight: 200
+		margin-right: 5px
+
+	.delete-line
+		cursor: pointer
+
+	.edit-line
+		cursor: pointer
+
+#lineForm
+	select, input
+		color: white
+		border-radius: 0
+		background-color: transparent
+		border-radius: 0
+
+		&:focus
+			border-color: $white
+			box-shadow: none
+
+		& *			
+			background-color: $mainetti-color
+			color: white

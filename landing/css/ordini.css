@@ -1,0 +1,79 @@
+a.visualizza-linea-button {
+  cursor: pointer; }
+  a.visualizza-linea-button i {
+    color: #ffffff; }
+
+select:disabled {
+  background: none; }
+
+.custom-modal {
+  background: rgba(119, 31, 39, 0.95);
+  width: 90%;
+  margin: 6% 5%;
+  height: auto;
+  position: absolute;
+  z-index: 30;
+  border: 2px solid #ffffff; }
+  .custom-modal .custom-modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .custom-modal .custom-modal-header i {
+      font-size: large;
+      color: white;
+      padding: 1% 1%;
+      cursor: pointer; }
+  .custom-modal .custom-modal-footer {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 1% 2%; }
+    .custom-modal .custom-modal-footer a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-weight: 200;
+      cursor: pointer; }
+      .custom-modal .custom-modal-footer a i {
+        font-size: x-large;
+        color: white;
+        padding: 1% 1%;
+        cursor: pointer;
+        margin-left: 12px; }
+  .custom-modal .form-group.row {
+    max-width: 100%;
+    margin: 0;
+    padding: 1% 2%;
+    color: white; }
+    .custom-modal .form-group.row .form-control:disabled, .custom-modal .form-group.row .form-control[readonly] {
+      background-color: transparent;
+      opacity: 1;
+      color: white;
+      border: none; }
+    .custom-modal .form-group.row select:disabled {
+      background: none; }
+  .custom-modal .orders-list {
+    padding: 0 1.5%; }
+
+.order-icons i {
+  margin-right: 5px; }
+.order-icons .delete-line {
+  cursor: pointer; }
+.order-icons .edit-line {
+  cursor: pointer; }
+
+#lineForm select, #lineForm input {
+  color: white;
+  border-radius: 0;
+  background-color: transparent;
+  border-radius: 0; }
+  #lineForm select:focus, #lineForm input:focus {
+    border-color: #ffffff;
+    box-shadow: none; }
+  #lineForm select *, #lineForm input * {
+    background-color: #771f27;
+    color: white; }
+
+/*# sourceMappingURL=ordini.css.map */

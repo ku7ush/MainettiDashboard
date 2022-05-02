@@ -1,0 +1,757 @@
+[0] =&gt; Array
+        (
+            [master_bu2s] =&gt; verde 6
+            [ean13] =&gt; 
+            [code] =&gt; 01100000-13947
+            [incoming_qty] =&gt; 1
+            [standard_price] =&gt; 0
+            [polietilene_bu3s_id] =&gt; Array
+                (
+                    [0] =&gt; 8
+                    [1] =&gt; rigenerato neutro
+                )
+
+            [clique_bu] =&gt; 
+            [cod_var] =&gt; 
+            [name_template] =&gt; BUSTe test programma
+            [property_account_income] =&gt; 
+            [soffietto_bu] =&gt; 0
+            [message_summary] =&gt;  
+            [col_pant2_id] =&gt; Array
+                (
+                    [0] =&gt; 2
+                    [1] =&gt; BLU 2758
+                )
+
+            [pausa] =&gt; 
+            [purchase_requisition] =&gt; 
+            [master_po_id] =&gt; 
+            [extra] =&gt; 0
+            [tipo_adesivo_bu] =&gt; Adesiva
+            [righe_costi] =&gt; Array
+                (
+                )
+
+            [polietilene_bu2s_id] =&gt; Array
+                (
+                    [0] =&gt; 7
+                    [1] =&gt; grado 3,5
+                )
+
+            [volume_value] =&gt; 
+            [codice_template] =&gt; 01100000
+            [loc_rack] =&gt; 
+            [pricelist_id] =&gt; Array
+                (
+                )
+
+            [lunghezza_bu] =&gt; 0
+            [larg] =&gt; 0
+            [price_margin] =&gt; 1
+            [property_stock_account_input] =&gt; 
+            [packaging] =&gt; Array
+                (
+                )
+
+            [reception_count] =&gt; 0
+            [peso_prod] =&gt; 0
+            [seller_id] =&gt; 
+            [bom_ids] =&gt; Array
+                (
+                )
+
+            [warehouse_id] =&gt; Array
+                (
+                )
+
+            [total_price] =&gt; 2.4
+            [variants] =&gt; 
+            [partner_ref] =&gt; [01100000-13947] BUSTe test programma
+            [rental] =&gt; 
+            [ciclo_tot] =&gt; 
+            [antistatico] =&gt; 
+            [image_medium] =&gt; 
+            [production_description] =&gt; 
+            [name] =&gt; BUSTe test programma
+            [cilindro_bu_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; 55
+                )
+
+            [default_location_id] =&gt; 
+            [soff] =&gt; 0
+            [tipo_produzione] =&gt; Pz
+            [trattamento_id] =&gt; Array
+                (
+                    [0] =&gt; 14
+                    [1] =&gt; 1+1
+                )
+
+            [Tipprod_id] =&gt; 
+            [dimension_value_ids] =&gt; Array
+                (
+                )
+
+            [valore_conai_prod] =&gt; 
+            [temperatura_bu] =&gt; 250
+            [perc_spes_tot_bu3s_id] =&gt; Array
+                (
+                    [0] =&gt; 12
+                    [1] =&gt; 40 %
+                )
+
+            [clique_po] =&gt; 
+            [message_follower_ids] =&gt; Array
+                (
+                    [0] =&gt; 6415
+                )
+
+            [supply_method] =&gt; produce
+            [orderpoint_ids] =&gt; Array
+                (
+                )
+
+            [weight] =&gt; 0
+            [additivo_bu3s] =&gt; add 3
+            [rotondo] =&gt; 
+            [microforatura] =&gt; 
+            [tipo_patt] =&gt; Adesiva
+            [description_purchase] =&gt; 
+            [tipo_stampa_id] =&gt; Array
+                (
+                    [0] =&gt; 16
+                    [1] =&gt; tampografica
+                )
+
+            [lineare_bu2s] =&gt; lin 2
+            [is_busta] =&gt; 
+            [tmpl_etichetta] =&gt; 
+            [giri_vite_bu] =&gt; 22
+            [spessore_bu] =&gt; 0
+            [virtual_available] =&gt; 1
+            [tipo_taglio] =&gt; 
+            [colore1] =&gt; Array
+                (
+                    [0] =&gt; 19
+                    [1] =&gt; BLU 296C
+                )
+
+            [colore3] =&gt; Array
+                (
+                    [0] =&gt; 21
+                    [1] =&gt; NERO
+                )
+
+            [colore2] =&gt; Array
+                (
+                    [0] =&gt; 20
+                    [1] =&gt; AVORIO
+                )
+
+            [colore5] =&gt; Array
+                (
+                    [0] =&gt; 23
+                    [1] =&gt; ROSSO 4010
+                )
+
+            [colore4] =&gt; Array
+                (
+                    [0] =&gt; 22
+                    [1] =&gt; GRIGIO 7024
+                )
+
+            [colore6] =&gt; Array
+                (
+                    [0] =&gt; 24
+                    [1] =&gt; GRIGIO FUME 191241
+                )
+
+            [master_id] =&gt; Array
+                (
+                    [0] =&gt; 10
+                    [1] =&gt; [SRPZ] SR COPRIABITO pz.RETTO
+                )
+
+            [weight_net] =&gt; 0
+            [master_bu3s] =&gt; verde 7
+            [patt] =&gt; 0
+            [state] =&gt; obsolete
+            [eco] =&gt; 
+            [additivo_bu2s] =&gt; add 2
+            [spess] =&gt; 0
+            [colore_busta] =&gt; Array
+                (
+                    [0] =&gt; 25
+                    [1] =&gt; BLU 662 C
+                )
+
+            [nr_colori] =&gt; 1
+            [dimension_type_ids] =&gt; Array
+                (
+                )
+
+            [temperatura_po] =&gt; 
+            [seller_ids] =&gt; Array
+                (
+                )
+
+            [master_bu_id] =&gt; Array
+                (
+                    [0] =&gt; 2656
+                    [1] =&gt; [50MA11] MASTER VERDE 11
+                )
+
+            [loc_row] =&gt; 
+            [polietilene_bu1s_id] =&gt; Array
+                (
+                    [0] =&gt; 6
+                    [1] =&gt; grado 2
+                )
+
+            [lineare_bu1s] =&gt; lin1
+            [col_pant1_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; BLU 7528
+                )
+
+            [property_stock_account_output] =&gt; 
+            [stella] =&gt; 1
+            [lst_price] =&gt; 2.4
+            [note_bu] =&gt; 
+            [st_tampografica_id] =&gt; 
+            [scatola_id] =&gt; 
+            [message_unread] =&gt; 
+            [velocita_linea_bu] =&gt; 60
+            [warranty] =&gt; 0
+            [property_stock_procurement] =&gt; Array
+                (
+                    [0] =&gt; 6
+                    [1] =&gt; Virtual Locations / Procurements
+                )
+
+            [additivo_bu1s] =&gt; add 1
+            [list_price] =&gt; 2.4
+            [production_conai_peso] =&gt; 0
+            [color] =&gt; 0
+            [image] =&gt; 
+            [perc_spes_tot_bu2s_id] =&gt; Array
+                (
+                    [0] =&gt; 11
+                    [1] =&gt; 30 %
+                )
+
+            [company_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; Mainetti Omaf S.r.l.
+                )
+
+            [mes_type] =&gt; fixed
+            [active] =&gt; 1
+            [lung] =&gt; 0
+            [larghezza_bu] =&gt; 0
+            [microforatura_bu] =&gt; 
+            [qty_available] =&gt; 0
+            [col_sta_bu] =&gt; maarcio
+            [uos_id] =&gt; 
+            [uos_coeff] =&gt; 1
+            [sale_ok] =&gt; 1
+            [message_is_follower] =&gt; 
+            [purchase_ok] =&gt; 1
+            [product_manager] =&gt; 
+            [routing_id] =&gt; 
+            [master_bu1s] =&gt; verde 5
+            [product_tmpl_id] =&gt; Array
+                (
+                    [0] =&gt; 7957
+                    [1] =&gt; BUSTe test programma
+                )
+
+            [type] =&gt; product
+            [track_incoming] =&gt; 
+            [property_stock_production] =&gt; Array
+                (
+                    [0] =&gt; 7
+                    [1] =&gt; Virtual Locations / Production
+                )
+
+            [seller_qty] =&gt; 0
+            [supplier_taxes_id] =&gt; Array
+                (
+                )
+
+            [volume] =&gt; 0
+            [marchio_ids] =&gt; 
+            [seller_info_id] =&gt; 
+            [description_sale] =&gt; 
+            [procure_method] =&gt; make_to_order
+            [property_stock_inventory] =&gt; Array
+                (
+                    [0] =&gt; 5
+                    [1] =&gt; Virtual Locations / Inventory loss
+                )
+
+            [lineare_bu3s] =&gt; lin3
+            [valuation] =&gt; manual_periodic
+            [minigrip] =&gt; 0
+            [perc_master] =&gt; 3
+            [loc_case] =&gt; 
+            [col_pant5_id] =&gt; Array
+                (
+                    [0] =&gt; 5
+                    [1] =&gt; 777
+                )
+
+            [sale_delay] =&gt; 7
+            [customer_code_ids] =&gt; Array
+                (
+                )
+
+            [uom_id] =&gt; Array
+                (
+                    [0] =&gt; 2
+                    [1] =&gt; KG
+                )
+
+            [cilindro_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; 55
+                )
+
+            [image_small] =&gt; 
+            [manpower_cost] =&gt; 0
+            [peso_template] =&gt; 0
+            [structural_cost] =&gt; 0
+            [hr_expense_ok] =&gt; 
+            [col_pant3_id] =&gt; Array
+                (
+                    [0] =&gt; 3
+                    [1] =&gt; 555
+                )
+
+            [sottoscorta_ids] =&gt; Array
+                (
+                )
+
+            [antiuv] =&gt; 
+            [track_production] =&gt; 
+            [tipo_taglio_bu] =&gt; 
+            [tipo_costo] =&gt; 
+            [misure_pz] =&gt; 
+            [cost_method] =&gt; standard
+            [price_extra] =&gt; 0
+            [pz_x_collo] =&gt; 0
+            [conai] =&gt; 
+            [default_code] =&gt; 01100000-13947
+            [price] =&gt; 0
+            [location_id] =&gt; Array
+                (
+                )
+
+            [id] =&gt; 18524
+            [miscela_id] =&gt; 
+            [master_polietilene_id] =&gt; Array
+                (
+                    [0] =&gt; 2669
+                    [1] =&gt; [50MA12] MASTER  MARRONE 12
+                )
+
+            [perc_spes_tot_bu1s_id] =&gt; Array
+                (
+                    [0] =&gt; 10
+                    [1] =&gt; 25 %
+                )
+
+            [track_outgoing] =&gt; 
+            [nr_fori] =&gt; 1
+            [message_ids] =&gt; Array
+                (
+                    [0] =&gt; 5121979
+                )
+
+            [outgoing_qty] =&gt; 0
+            [uom_po_id] =&gt; Array
+                (
+                    [0] =&gt; 2
+                    [1] =&gt; KG
+                )
+
+            [intrastat_id] =&gt; 
+            [tipo_miscela_id] =&gt; Array
+                (
+                    [0] =&gt; 2
+                    [1] =&gt; copriabiti
+                )
+
+            [n_clique] =&gt; 3263
+            [description] =&gt; 
+            [st_dirett_id] =&gt; 
+            [colore_tampone_id] =&gt; Array
+                (
+                    [0] =&gt; 8
+                    [1] =&gt; nome 9
+                )
+
+            [delivery_count] =&gt; 0
+            [gancio_id] =&gt; 
+            [production_peso] =&gt; 0
+            [seller_delay] =&gt; 1
+            [adhoc_code] =&gt; 
+            [categ_id] =&gt; Array
+                (
+                    [0] =&gt; 292
+                    [1] =&gt; 12-ACCESSORI IN PLASTICA PRODOTTI / 12BR-BUSTE RIGENERATE
+                )
+
+            [bom_template_ids] =&gt; Array
+                (
+                )
+
+            [attachment_ids] =&gt; Array
+                (
+                )
+
+            [col_pant4_id] =&gt; Array
+                (
+                    [0] =&gt; 4
+                    [1] =&gt; 666
+                )
+
+            [produce_delay] =&gt; 1
+            [property_account_expense] =&gt; 
+            [col_pant6_id] =&gt; Array
+                (
+                    [0] =&gt; 6
+                    [1] =&gt; 888
+                )
+
+            [imballobu_id] =&gt; 
+            [variant_ids] =&gt; Array
+                (
+                    [0] =&gt; 18524
+                )
+
+            [peso_specifico] =&gt; 0
+            [taxes_id] =&gt; Array
+                (
+                    [0] =&gt; 25
+                )
+
+            [bieffebi_relation_ids] =&gt; Array
+                (
+                    [0] =&gt; 13
+                )
+
+        )
+
+    [1] =&gt; Array
+        (
+            [master_bu2s] =&gt; 
+            [ean13] =&gt; 
+            [code] =&gt; 01106BN50
+            [incoming_qty] =&gt; 1
+            [standard_price] =&gt; 0.9
+            [polietilene_bu3s_id] =&gt; 
+            [clique_bu] =&gt; 
+            [cod_var] =&gt; 
+            [name_template] =&gt; BUSTONI NERI  RIGENERATI  CM.50+15+15X 120
+            [property_account_income] =&gt; 
+            [soffietto_bu] =&gt; 
+            [message_summary] =&gt;  
+            [col_pant2_id] =&gt; 
+            [pausa] =&gt; 
+            [purchase_requisition] =&gt; 
+            [master_po_id] =&gt; 
+            [extra] =&gt; 0
+            [tipo_adesivo_bu] =&gt; 
+            [righe_costi] =&gt; Array
+                (
+                )
+
+            [polietilene_bu2s_id] =&gt; 
+            [volume_value] =&gt; 
+            [codice_template] =&gt; 01106BN50
+            [loc_rack] =&gt; 
+            [pricelist_id] =&gt; Array
+                (
+                )
+
+            [lunghezza_bu] =&gt; 
+            [larg] =&gt; 0
+            [price_margin] =&gt; 1
+            [property_stock_account_input] =&gt; 
+            [packaging] =&gt; Array
+                (
+                )
+
+            [reception_count] =&gt; 0
+            [peso_prod] =&gt; 0
+            [seller_id] =&gt; 
+            [bom_ids] =&gt; Array
+                (
+                )
+
+            [warehouse_id] =&gt; Array
+                (
+                )
+
+            [total_price] =&gt; 1.5
+            [variants] =&gt; 
+            [partner_ref] =&gt; [01106BN50] BUSTONI NERI  RIGENERATI  CM.50+15+15X 120
+            [rental] =&gt; 
+            [ciclo_tot] =&gt; 
+            [antistatico] =&gt; 
+            [image_medium] =&gt; 
+            [production_description] =&gt; 
+            [name] =&gt; BUSTONI NERI  RIGENERATI  CM.50+15+15X 120
+            [cilindro_bu_id] =&gt; 
+            [default_location_id] =&gt; 
+            [soff] =&gt; 0
+            [tipo_produzione] =&gt; 
+            [trattamento_id] =&gt; 
+            [Tipprod_id] =&gt; 
+            [dimension_value_ids] =&gt; Array
+                (
+                )
+
+            [valore_conai_prod] =&gt; 
+            [temperatura_bu] =&gt; 
+            [perc_spes_tot_bu3s_id] =&gt; 
+            [clique_po] =&gt; 
+            [message_follower_ids] =&gt; Array
+                (
+                )
+
+            [supply_method] =&gt; buy
+            [orderpoint_ids] =&gt; Array
+                (
+                )
+
+            [weight] =&gt; 0
+            [additivo_bu3s] =&gt; 
+            [rotondo] =&gt; 
+            [microforatura] =&gt; 
+            [tipo_patt] =&gt; 
+            [description_purchase] =&gt; 
+            [tipo_stampa_id] =&gt; 
+            [lineare_bu2s] =&gt; 
+            [is_busta] =&gt; 
+            [tmpl_etichetta] =&gt; 
+            [giri_vite_bu] =&gt; 
+            [spessore_bu] =&gt; 
+            [virtual_available] =&gt; 1261
+            [tipo_taglio] =&gt; 
+            [colore1] =&gt; 
+            [colore3] =&gt; 
+            [colore2] =&gt; 
+            [colore5] =&gt; 
+            [colore4] =&gt; 
+            [colore6] =&gt; 
+            [master_id] =&gt; 
+            [weight_net] =&gt; 0
+            [master_bu3s] =&gt; 
+            [patt] =&gt; 0
+            [state] =&gt; 
+            [eco] =&gt; 
+            [additivo_bu2s] =&gt; 
+            [spess] =&gt; 0
+            [colore_busta] =&gt; 
+            [nr_colori] =&gt; 
+            [dimension_type_ids] =&gt; Array
+                (
+                )
+
+            [temperatura_po] =&gt; 
+            [seller_ids] =&gt; Array
+                (
+                )
+
+            [master_bu_id] =&gt; 
+            [loc_row] =&gt; 
+            [polietilene_bu1s_id] =&gt; 
+            [lineare_bu1s] =&gt; 
+            [col_pant1_id] =&gt; 
+            [property_stock_account_output] =&gt; 
+            [stella] =&gt; 
+            [lst_price] =&gt; 1.5
+            [note_bu] =&gt; 
+            [st_tampografica_id] =&gt; 
+            [scatola_id] =&gt; 
+            [message_unread] =&gt; 
+            [velocita_linea_bu] =&gt; 
+            [warranty] =&gt; 0
+            [property_stock_procurement] =&gt; Array
+                (
+                    [0] =&gt; 6
+                    [1] =&gt; Virtual Locations / Procurements
+                )
+
+            [additivo_bu1s] =&gt; 
+            [list_price] =&gt; 1.5
+            [production_conai_peso] =&gt; 0
+            [color] =&gt; 0
+            [image] =&gt; 
+            [perc_spes_tot_bu2s_id] =&gt; 
+            [company_id] =&gt; Array
+                (
+                    [0] =&gt; 1
+                    [1] =&gt; Mainetti Omaf S.r.l.
+                )
+
+            [mes_type] =&gt; fixed
+            [active] =&gt; 1
+            [lung] =&gt; 0
+            [larghezza_bu] =&gt; 
+            [microforatura_bu] =&gt; 
+            [qty_available] =&gt; 1360
+            [col_sta_bu] =&gt; 
+            [uos_id] =&gt; 
+            [uos_coeff] =&gt; 1
+            [sale_ok] =&gt; 1
+            [message_is_follower] =&gt; 
+            [purchase_ok] =&gt; 1
+            [product_manager] =&gt; 
+            [routing_id] =&gt; 
+            [master_bu1s] =&gt; 
+            [product_tmpl_id] =&gt; Array
+                (
+                    [0] =&gt; 1043
+                    [1] =&gt; BUSTONI NERI  RIGENERATI  CM.50+15+15X 120
+                )
+
+            [type] =&gt; product
+            [track_incoming] =&gt; 
+            [property_stock_production] =&gt; Array
+                (
+                    [0] =&gt; 7
+                    [1] =&gt; Virtual Locations / Production
+                )
+
+            [seller_qty] =&gt; 0
+            [supplier_taxes_id] =&gt; Array
+                (
+                )
+
+            [volume] =&gt; 0
+            [marchio_ids] =&gt; 
+            [seller_info_id] =&gt; 
+            [description_sale] =&gt; 
+            [procure_method] =&gt; make_to_order
+            [property_stock_inventory] =&gt; Array
+                (
+                    [0] =&gt; 5
+                    [1] =&gt; Virtual Locations / Inventory loss
+                )
+
+            [lineare_bu3s] =&gt; 
+            [valuation] =&gt; manual_periodic
+            [minigrip] =&gt; 0
+            [perc_master] =&gt; 0
+            [loc_case] =&gt; 
+            [col_pant5_id] =&gt; 
+            [sale_delay] =&gt; 7
+            [customer_code_ids] =&gt; Array
+                (
+                    [0] =&gt; 1
+                )
+
+            [uom_id] =&gt; Array
+                (
+                    [0] =&gt; 2
+                    [1] =&gt; KG
+                )
+
+            [cilindro_id] =&gt; 
+            [image_small] =&gt; 
+            [manpower_cost] =&gt; 0
+            [peso_template] =&gt; 0
+            [structural_cost] =&gt; 0
+            [hr_expense_ok] =&gt; 
+            [col_pant3_id] =&gt; 
+            [sottoscorta_ids] =&gt; Array
+                (
+                )
+
+            [antiuv] =&gt; 
+            [track_production] =&gt; 
+            [tipo_taglio_bu] =&gt; 
+            [tipo_costo] =&gt; 
+            [misure_pz] =&gt; 
+            [cost_method] =&gt; standard
+            [price_extra] =&gt; 0
+            [pz_x_collo] =&gt; 0
+            [conai] =&gt; 
+            [default_code] =&gt; 01106BN50
+            [price] =&gt; 0
+            [location_id] =&gt; Array
+                (
+                )
+
+            [id] =&gt; 4354
+            [miscela_id] =&gt; 
+            [master_polietilene_id] =&gt; 
+            [perc_spes_tot_bu1s_id] =&gt; 
+            [track_outgoing] =&gt; 
+            [nr_fori] =&gt; 
+            [message_ids] =&gt; Array
+                (
+                )
+
+            [outgoing_qty] =&gt; -100
+            [uom_po_id] =&gt; Array
+                (
+                    [0] =&gt; 2
+                    [1] =&gt; KG
+                )
+
+            [intrastat_id] =&gt; 
+            [tipo_miscela_id] =&gt; 
+            [n_clique] =&gt; 0
+            [description] =&gt; 
+            [st_dirett_id] =&gt; 
+            [colore_tampone_id] =&gt; 
+            [delivery_count] =&gt; 1
+            [gancio_id] =&gt; 
+            [production_peso] =&gt; 0
+            [seller_delay] =&gt; 1
+            [adhoc_code] =&gt; 01106BN50
+            [categ_id] =&gt; Array
+                (
+                    [0] =&gt; 285
+                    [1] =&gt; 09-PRODOTTI COMMERC. IN PLASTICA / 09BN-BUSTONI NERI
+                )
+
+            [bom_template_ids] =&gt; Array
+                (
+                )
+
+            [attachment_ids] =&gt; Array
+                (
+                )
+
+            [col_pant4_id] =&gt; 
+            [produce_delay] =&gt; 1
+            [property_account_expense] =&gt; 
+            [col_pant6_id] =&gt; 
+            [imballobu_id] =&gt; 
+            [variant_ids] =&gt; Array
+                (
+                    [0] =&gt; 4354
+                )
+
+            [peso_specifico] =&gt; 0
+            [taxes_id] =&gt; Array
+                (
+                    [0] =&gt; 25
+                )
+
+            [bieffebi_relation_ids] =&gt; Array
+                (
+                )
+
+        )
+
+)

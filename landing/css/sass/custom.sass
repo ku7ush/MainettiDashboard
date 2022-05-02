@@ -1,0 +1,218 @@
+// TOOLS
+.hideme
+	opacity: 0	
+	transition: opacity 0.4s
+
+.showme
+	opacity: 1 !important
+	transition: opacity 0.4s	
+
+.below
+	height: 0 !important
+	z-index: -1 !important
+
+.delay-025s
+	-webkit-animation-delay: 0.25s
+	animation-delay: 0.25s
+
+.delay-05s
+	-webkit-animation-delay: 0.5s
+	animation-delay: 0.5s
+
+.delay-075s
+	-webkit-animation-delay: 0.75s
+	animation-delay: 0.75s
+
+.last-section
+	padding-bottom: 2vh
+
+//	BACKGROUNDS
+
+body
+	background-color: black
+
+.bg-black
+	background-color: #060606 !important
+
+#appendini
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/pexels-photo-325876.jpeg")
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/pexels-photo-325876.jpeg")
+	background-position: center
+	background-repeat: no-repeat
+	background-attachment: scroll
+	background-size: cover
+
+#polybags
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/pexels-photo-1520124.jpeg")
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/pexels-photo-1520124.jpeg")
+	background-position: center
+	background-repeat: no-repeat
+	background-attachment: scroll
+	background-size: cover
+
+#labeling
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/pexels-photo-697059.jpeg")
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/pexels-photo-697059.jpeg")
+	background-position: center
+	background-repeat: no-repeat
+	background-attachment: scroll
+	background-size: cover
+
+#thecha
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/pexels-photo-404174.jpeg")
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/pexels-photo-404174.jpeg")	
+	background-position: center
+	background-repeat: no-repeat
+	background-attachment: scroll
+	background-size: cover
+
+
+#appendini, #polybags, #labeling, #thecha
+	min-height: 100vh
+	height: auto
+	display: flex
+	flex-direction: column
+	justify-content: center
+
+	h2
+		font-size: 3rem
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait)
+	#appendini, #polybags, #labeling, #thecha
+		max-height: 50vh
+		min-height: 50vh		
+		height: auto	
+
+
+// NAVBAR
+
+#mainNav
+	background-color: transparent
+	margin-top: 2rem
+
+	.navbar-brand
+		align-self: flex-start
+		color: rgba(255, 255, 255, 0.85)
+		padding: 0 1.5rem
+		font-size: 3rem
+		font-family: "Oswald", sans-serif
+
+	.navbar-nav
+		flex-direction: column !important
+		text-align: center
+
+	.navbar-toggler
+		color: rgba(255, 255, 255, 0.8)
+		border: none
+
+#navbarLanding
+	align-self: flex-start
+	height: 5em
+
+	.navbar-nav
+		flex-direction: row !important
+
+#navbarResponsive
+	.nav-link
+		transition: color 0.4s
+		color: rgba(255, 255, 255, 0.8)
+
+		&:hover
+			transition: color 0.4s
+			color: rgba(255, 255, 255, 1)
+
+
+@media (min-width: 992px)
+	#mainNav
+		.nav-link
+			transition: color 0.4s
+			padding: 0.75rem 1rem
+			color: rgba(255, 255, 255, 0.8)
+
+			&:hover
+				transition: color 0.4s
+				color: rgba(255, 255, 255, 1)
+		.navbar-brand
+			padding: 0 1.5rem
+			color: rgba(255, 255, 255, 0.8)
+			font-size: 3rem
+			font-family: "Oswald", sans-serif
+
+@media (max-width: 768px)
+	#navbarResponsive
+		.navbar-nav
+			background: rgba(255, 255, 255, 0.2)
+			padding: 3rem 0
+
+// SOCIAL LINKS
+
+@media (max-width: 1366px)
+	.social-items
+		opacity: 1
+
+@media only screen and (max-device-width: 1366px) and (orientation: landscape)
+	.social-items
+		display: flex
+		flex-direction: column
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait)
+	.social-items
+		display: flex
+		flex-direction: row
+		justify-content: center
+
+		a:nth-child(2)
+			margin: 0 3%
+
+
+// BACK TO TOP
+#backToTop
+	position: fixed
+	right: 2.5%
+	bottom: 5%
+	width: 2rem
+	height: 2rem
+	text-align: center
+
+	i
+		font-size: 2rem 
+		transition: color 0.4s
+		color: rgba(255, 255, 255, 0.7)
+
+	&:hover
+		i
+			transition: color 0.4s
+			color: rgba(255, 255, 255, 1)
+
+
+// FOOTER
+
+.card
+	border: none !important
+	border-radius: 0
+	background-color: transparent
+	color: rgba(255, 255, 255, 0.7)
+
+	i
+		color: rgba(255, 255, 255, 0.7) !important
+		font-size: 2.5rem
+
+	hr 
+		border-color: rgba(255, 255, 255, 0.7) !important
+
+	a
+		transition: color 0.4s
+		color: rgba(255, 255, 255, 0.7) !important
+
+		&:hover
+			transition: color 0.4s
+			color: rgba(255, 255, 255, 1) !important
+
+.contact-section .social 
+	a.fbicon:hover
+		transition: background 0.4s
+		background: rgba(55, 60, 195, 0.5)
+
+	a.ldicon:hover
+		transition: background 0.4s
+		background: rgba(55, 150, 195, 0.5)

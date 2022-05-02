@@ -1,0 +1,33 @@
+.nuovo-cliente-wrapper .title {
+  justify-content: space-between !important; }
+  .nuovo-cliente-wrapper .title .back-link, .nuovo-cliente-wrapper .title .save-link {
+    color: #ffffff; }
+
+#newClientForm .row {
+  margin-left: 0;
+  margin-right: 0; }
+  #newClientForm .row .form-control, #newClientForm .row select {
+    border-radius: 0;
+    transition: border-color 0.5s, border-width, 0.5s;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff; }
+    #newClientForm .row .form-control:focus, #newClientForm .row select:focus {
+      transition: border-color 0.5s, border-width, 0.5s;
+      border-color: #771f27;
+      box-shadow: none;
+      border-width: 2px; }
+  #newClientForm .row .custom-select *, #newClientForm .row select * {
+    background-color: white;
+    color: black; }
+    #newClientForm .row .custom-select *:checked, #newClientForm .row select *:checked {
+      background-color: #771f27;
+      color: white; }
+    #newClientForm .row .custom-select *:active, #newClientForm .row .custom-select *:focus, #newClientForm .row .custom-select *:valid, #newClientForm .row .custom-select *:visited, #newClientForm .row .custom-select *:enabled, #newClientForm .row .custom-select *:focus-visible, #newClientForm .row .custom-select *:focus-within, #newClientForm .row .custom-select *:hover, #newClientForm .row select *:active, #newClientForm .row select *:focus, #newClientForm .row select *:valid, #newClientForm .row select *:visited, #newClientForm .row select *:enabled, #newClientForm .row select *:focus-visible, #newClientForm .row select *:focus-within, #newClientForm .row select *:hover {
+      background-color: #771f27;
+      color: white;
+      font-family: "Oswald", sans-serif !important;
+      font-weight: 200 !important; }
+  #newClientForm .row label {
+    color: #ffffff; }
+
+/*# sourceMappingURL=aggiungicliente.css.map */

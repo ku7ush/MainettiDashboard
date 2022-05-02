@@ -1,0 +1,42 @@
+@import 'palette'
+
+.nuovo-cliente-wrapper
+	.title
+		justify-content: space-between !important
+
+		.back-link, .save-link
+			color: $white
+
+#newClientForm
+	.row
+		margin-left: 0
+		margin-right: 0
+
+		.form-control, select
+			border-radius: 0
+			transition: border-color 0.5s, border-width, 0.5s
+			background-color: rgba(255, 255, 255, 0.1)
+			color: $white
+
+			&:focus
+				transition: border-color 0.5s, border-width, 0.5s
+				border-color: $mainetti-color
+				box-shadow: none
+				border-width: 2px
+
+		.custom-select *, select *
+			background-color: white
+			color: black
+
+			&:checked
+				background-color: $mainetti-color
+				color: white
+
+			&:active, &:focus, &:valid, &:visited, &:enabled, &:focus-visible, &:focus-within, &:hover
+				background-color: $mainetti-color
+				color: white
+				font-family: "Oswald", sans-serif !important
+				font-weight: 200 !important
+
+		label
+			color: $white

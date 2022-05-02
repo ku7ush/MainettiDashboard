@@ -1,0 +1,78 @@
+@media (min-width: 992px) {
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.85); } }
+.trans-button {
+  width: 100%;
+  margin-top: 5%;
+  border: 1px solid white;
+  border-radius: 0;
+  color: white;
+  height: 38px;
+  line-height: 38px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.4s, color 0.3s; }
+  .trans-button:hover {
+    transition: background-color 0.4s, color 0.3s;
+    background-color: rgba(119, 31, 39, 0.5);
+    color: white; }
+
+.back-icon {
+  transition: transform 0.5s;
+  font-size: 1.8rem; }
+  .back-icon:hover {
+    transition: transform 0.5s;
+    transform: translateX(-15px); }
+
+input {
+  border-radius: 0 !important;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 300 !important; }
+
+.form-control:focus {
+  border: 0;
+  box-shadow: none; }
+
+.logo {
+  font-size: 7rem;
+  font-family: "Oswald", sans-serif; }
+
+.navbar-toggler {
+  display: none; }
+
+.masthead {
+  padding: 0; }
+
+.card {
+  background-color: rgba(255, 255, 255, 0.13); }
+  .card .input-group-text {
+    background-color: transparent;
+    border-radius: 0; }
+  .card input {
+    border-radius: 0;
+    font-size: 1rem !important; }
+  .card i {
+    font-size: 0.8rem;
+    color: white; }
+  .card .card-header {
+    background-color: transparent;
+    border-bottom: 0; }
+  .card .card-body {
+    background-color: transparent; }
+  .card .card-footer {
+    background-color: transparent;
+    display: none; }
+
+.error-box {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.13);
+  margin-top: 15px;
+  padding: 0.75rem 2.2rem; }
+  .error-box div {
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8rem; }
+
+/*# sourceMappingURL=login.css.map */

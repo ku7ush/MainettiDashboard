@@ -1,0 +1,77 @@
+#mainNav {
+  margin-top: 1%; }
+  #mainNav > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+  #mainNav .user-info .user-icon {
+    color: #ffffff;
+    font-size: 0.8rem; }
+  #mainNav .user-info .user-name {
+    color: #ffffff;
+    font-size: 0.8rem; }
+  #mainNav .user-info .logout {
+    color: #ffffff;
+    transition: color 0.4s;
+    font-size: 0.8rem; }
+    #mainNav .user-info .logout:hover {
+      color: #ffffff; }
+    #mainNav .user-info .logout i {
+      font-size: 0.8rem;
+      color: #ffffff; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #mainNav > div {
+    justify-content: space-between; }
+    #mainNav > div button {
+      display: block; }
+
+  .user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 25%;
+    justify-content: space-around; }
+    .user-info .logout-text {
+      display: none; } }
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+  .user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 12rem;
+    justify-content: space-around; }
+    .user-info .logout-text {
+      display: none; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 618px) and (orientation: portrait) {
+  #mainNav > div {
+    justify-content: space-between; }
+    #mainNav > div button {
+      display: block; }
+
+  .user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 50%;
+    line-height: 36px;
+    justify-content: space-around; }
+    .user-info .logout-text {
+      display: none; } }
+@media only screen and (min-device-width: 480px) and (max-device-width: 812px) and (orientation: landscape) {
+  #mainNav > div {
+    justify-content: space-between; }
+    #mainNav > div button {
+      display: block; }
+
+  .user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 12rem;
+    line-height: 36px;
+    justify-content: space-around; }
+    .user-info .logout-text {
+      display: none; } }
+
+/*# sourceMappingURL=header.css.map */

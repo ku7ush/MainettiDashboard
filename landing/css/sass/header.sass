@@ -1,0 +1,97 @@
+@import 'palette'
+
+#mainNav
+	margin-top: 1%
+
+	& > div
+		display: flex
+		flex-direction: row
+		justify-content: flex-end
+
+	.user-info
+		.user-icon
+			color: $white
+			font-size: 0.8rem
+		.user-name
+			color: $white
+			font-size: 0.8rem
+		.logout
+			color: $white
+			transition: color 0.4s
+			font-size: 0.8rem
+
+			&:hover
+				color: $white
+
+			i 
+				font-size: 0.8rem
+				color: $white
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+	#mainNav
+		& > div
+			justify-content: space-between
+
+			button
+				display: block
+
+	.user-info
+		display: flex
+		flex-direction: row
+		align-items: flex-end
+		width: 25%
+		justify-content: space-around
+
+		.logout-text
+			display: none
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape)
+	.user-info
+		display: flex
+		flex-direction: row
+		align-items: flex-end
+		width: 12rem
+		justify-content: space-around
+
+		.logout-text
+			display: none
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 618px) and (orientation: portrait)
+	
+	#mainNav
+		& > div
+			justify-content: space-between
+
+			button
+				display: block
+
+	.user-info
+		display: flex
+		flex-direction: row
+		align-items: flex-end
+		width: 50%
+		line-height: 36px
+		justify-content: space-around
+
+		.logout-text
+			display: none
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 812px) and (orientation: landscape)
+	
+	#mainNav
+		& > div
+			justify-content: space-between
+
+			button
+				display: block
+
+	.user-info
+		display: flex
+		flex-direction: row
+		align-items: flex-end
+		width: 12rem
+		line-height: 36px
+		justify-content: space-around
+
+		.logout-text
+			display: none
